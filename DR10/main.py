@@ -4,7 +4,6 @@ try:
         f_names = [];
         for line in f:
             f_names.append(line[:-1]);
-        print(f_names);
         nums = [];
         for elem in f_names:
             try:
